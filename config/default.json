@@ -1,0 +1,8 @@
+{
+    "mongoURI": "mongodb+srv://library:integrity1212@contactkeeper.b8vrz.mongodb.net/?retryWrites=true&w=majority",
+    "jwtsecret": "secret",
+    "client id": "56440586722-3t6shacl45okg4rf8ei6oa0ata2482ui.apps.googleusercontent.com",
+    "client secret":"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",
+    "access_token":"ya29.a0Aa4xrXNKzbhnTHnBtzc6-D4vb-VrHUa2qNZXN0nH-QHrwzMWhN6hrnCgHNsYn_ziUupe6i6knt_ohODuWNmkZS3QbwUw15pmHMZUstII2nTDzb5R8NkkMIJV5nwRm9H9IWoIy6YgvRehwVJGgXnTe3wXtqxTaCgYKATASARESFQEjDvL9ofU7LVbJ_kl1k2bsoxzxkw0163",
+    "refresh_token":"1//04Kj26lfqzqNhCgYIARAAGAQSNwF-L9IrORTrsd8wQwrqwKHyFRGMWL8qlrtNwq7_bU5_SthxAVZRi39ekgyKGg7OXrYHQ0koG5I"
+}
