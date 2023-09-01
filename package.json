@@ -13,5 +13,28 @@
     "nodemailer": "^6.9.4",
     "nodemon": "^3.0.1",
     "path": "^0.12.7"
-  }
+  },
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "clientinstall": "npm install --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix frontend && npm run build --prefix frontend"
+  },
+  "name": "journal",
+  "version": "1.0.0",
+  "description": "My writing journal",
+  "main": "server.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FamutimiEmmanuel/myjournal.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FamutimiEmmanuel/myjournal/issues"
+  },
+  "homepage": "https://github.com/FamutimiEmmanuel/myjournal#readme"
 }
