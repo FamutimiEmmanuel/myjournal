@@ -13,6 +13,7 @@ app.use(express.json({ extended: false }));
 
 app.use(require('./routes/auth'))
 app.use(require('./routes/writers'))
+app.use(require('./routes/posts'))
 
 
 if(process.env.NODE_ENV === 'production') {

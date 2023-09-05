@@ -22,6 +22,7 @@ const WriterSchema = mongoose.Schema({
     picture: {
       type: String
     },
+
     resetToken:String,
     expireToken:Date,
    
